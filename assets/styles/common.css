@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cl-white {
+    color: #fff;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-26 {
+    font-size: 26px;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
