@@ -4,7 +4,7 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    background: #1F3C44;
+    z-index: 99;
 }
 
 .header__content-wrapper {
