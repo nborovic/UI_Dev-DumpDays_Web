@@ -30,10 +30,6 @@
     font-size: 30px;
 }
 
-.content__title--blinking {
-    animation: blinking 200ms infinite alternate;
-}
-
 .br-1 {
     display: none;
 }
