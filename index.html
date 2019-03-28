@@ -1,61 +1,522 @@
 <!DOCTYPE html>
 <html lang="hr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" href="./assets/images/favicon_32.png">
-    <link rel="stylesheet" href="./assets/styles/common.css">
-    <link rel="stylesheet" href="./assets/styles/header.css">
-    <link rel="stylesheet" href="./assets/styles/landing.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" href="./assets/images/favicon_32.png" />
+    <link rel="stylesheet" href="./assets/styles/header.css" />
+    <link rel="stylesheet" href="./assets/styles/landing.css" />
+    <link rel="stylesheet" href="./assets/styles/schedule.css" />
+    <link rel="stylesheet" href="./assets/styles/common.css" />
     <title>Dev, Design & Tech konferencija | DUMP Days 2018</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!--
+      Header
+    -->
+
     <header>
-        <section class="header__content-wrapper">
-            <img src="./assets/images/logo.png" alt="DUMP Days logo" class="content-wrapper__logo">
+      <section class="header__content-wrapper">
+        <img
+          src="./assets/images/logo.png"
+          alt="DUMP Days logo"
+          class="content-wrapper__logo"
+        />
 
-            <nav class="content-wrapper__nav-desktop">
-                <a href="#" class="nav__link fs-16 fw-700 cl-white">Naslovnica</a>
-                <a href="#" class="nav__link fs-16 fw-700 cl-white">Konferencija</a>
-                <a href="#" class="nav__link fs-16 fw-700 cl-white">Raspored</a>
-                <a href="#" class="nav__link fs-16 fw-700 cl-white">Sponzori</a>
-                <a href="#" class="nav__link fs-16 fw-700 cl-white">Kontakt</a>
-                <a href="#" class="nav__link fs-16 fw-700 cl-white nav__link--bg">Registracija</a>
-            </nav>
+        <nav class="content-wrapper__nav-desktop">
+          <a href="#" class="nav__link fs-16 fw-700 cl-white">Naslovnica</a>
+          <a href="#" class="nav__link fs-16 fw-700 cl-white">Konferencija</a>
+          <a href="#" class="nav__link fs-16 fw-700 cl-white">Raspored</a>
+          <a href="#" class="nav__link fs-16 fw-700 cl-white">Sponzori</a>
+          <a href="#" class="nav__link fs-16 fw-700 cl-white">Kontakt</a>
+          <a href="#" class="nav__link fs-16 fw-700 cl-white nav__link--bg"
+            >Registracija</a
+          >
+        </nav>
 
-            <nav class="content-wrapper__nav-mobile">
-                <div class="nav__close-icon">
-                    <span class="close-icon__line"></span>
-                </div>
+        <nav class="content-wrapper__nav-mobile">
+          <div class="nav__close-icon">
+            <span class="close-icon__line"></span>
+          </div>
 
-                <a href="#" class="nav__link nav__link--margin fs-26 fw-700 cl-white">Naslovnica</a>
-                <a href="#" class="nav__link nav__link--margin fs-26 fw-700 cl-white">Konferencija</a>
-                <a href="#" class="nav__link nav__link--margin fs-26 fw-700 cl-white">Raspored</a>
-                <a href="#" class="nav__link nav__link--margin fs-26 fw-700 cl-white">Sponzori</a>
-                <a href="#" class="nav__link nav__link--margin fs-26 fw-700 cl-white">Kontakt</a>
-                <a href="#" class="nav__link nav__link--margin fs-26 fw-700 cl-white nav__link--bg">Registracija</a>
-            </nav>
+          <a href="#" class="nav__link nav__link--margin fs-26 fw-700 cl-white"
+            >Naslovnica</a
+          >
+          <a href="#" class="nav__link nav__link--margin fs-26 fw-700 cl-white"
+            >Konferencija</a
+          >
+          <a href="#" class="nav__link nav__link--margin fs-26 fw-700 cl-white"
+            >Raspored</a
+          >
+          <a href="#" class="nav__link nav__link--margin fs-26 fw-700 cl-white"
+            >Sponzori</a
+          >
+          <a href="#" class="nav__link nav__link--margin fs-26 fw-700 cl-white"
+            >Kontakt</a
+          >
+          <a
+            href="#"
+            class="nav__link nav__link--margin fs-26 fw-700 cl-white nav__link--bg"
+            >Registracija</a
+          >
+        </nav>
 
-            <div class="content-wrapper__hamburger-icon">
-                <span class="hamburger-icon__line"></span>
-            </div>
-        </section>
+        <div class="content-wrapper__hamburger-icon">
+          <span class="hamburger-icon__line"></span>
+        </div>
+      </section>
     </header>
 
     <main>
-        <section class="main__landing">
-            <div class="landing__content">
-                    <h1 class="content__title fw-900 cl-white">Konferencija za novu generaciju <span class="content__title fw-900 cl-turquoise content__title--effect">developera</span><span class="content__title fs-63 fw-900 cl-turquoise content__title--blinking">_</span></h1>
-                    <p class="content__info cl-white">11. i 12. svibnja | FESB, Split</p>
+      <!-- 
+        Landing
+      -->
+
+      <section class="main__landing">
+        <div class="landing__content">
+          <h1 class="content__title fw-900 cl-white">
+            Konferencija za novu generaciju
+            <span
+              class="content__title fw-900 cl-turquoise content__title--effect"
+              >developera</span
+            ><span
+              class="content__title fs-63 fw-900 cl-turquoise content__title--blinking"
+              >_</span
+            >
+          </h1>
+          <p class="content__info cl-white">11. i 12. svibnja | FESB, Split</p>
+        </div>
+        <video autoplay loop muted class="landing__background">
+          <source src="./assets/videos/background.mp4" type="video/mp4" />
+        </video>
+      </section>
+
+      <!--
+        Schedule
+      -->
+
+      <section class="main__schedule">
+        <div class="schedule__wrapper">
+          <div class="schedule__text-content">
+            <h1 class="text-content__title">Raspored</h1>
+            <p class="text-content__paragraph">
+              Više od <span class="fw-600">20 predavača</span> će tokom <span class="fw-600">2 dana</span> pričati o raznim IT temama, a
+              posebno o <span class="fw-600">modernim tehnologijama</span> te načinima na koje one mijenjaju
+              i oblikuju našu budućnost. Kako biste si lakše isplanirali dan,
+              ispod se nalazi raspored i opis svih predavanja.
+            </p>
+          </div>
+
+          <div class="schedule__menu clearfix">
+            <button class="menu__day-switch menu__day-switch--first">
+              <p class="day-switch__day day-switch__day--first fw-600">1. Dan</p>
+              <p class="day-switch__date day-switch__day--first">11. svibnja</p>
+            </button>
+            <button class="menu__day-switch menu__day-switch--second">
+              <p class="day-switch__day day-switch__day--second fw-600">2. Dan</p>
+              <p class="day-switch__date day-switch__date--second">12. svibnja</p>
+            </button>
+          </div>
+
+          <div class="schedule__day">
+            <div class="day__event day__event--cursor-initial">
+              <img
+                src="./assets/images/clock-icon.png"
+                alt="Clock icon"
+                class="event__clock-icon"
+              />
+              <span class="event__time">10:00 - 10:20</span>
+              <h2 class="event__title">Otvaranje konferencije</h2>
             </div>
-                <video autoplay loop muted class="landing__background">
-                        <source src="./assets/videos/background.mp4" type="video/mp4">
-                </video>
-        </section>
+
+            <div class="day__event">
+              <div class="event__minimized">
+                <img
+                  src="./assets/images/clock-icon.png"
+                  alt="Clock icon"
+                  class="event__clock-icon"
+                />
+                <span class="event__time">10:35 - 11:20</span>
+                <span class="event__type event__type--green">Dev</span>
+
+                <h2 class="event__title">
+                  Amp<span class="event__title--lower">utacija</span> mobilnog
+                  weba
+                </h2>
+                <p class="event__speakers">
+                  Ivan Lovrić, Front-End Developer @ Profico
+                </p>
+              </div>
+              <div class="event__dropdown">
+                <p class="dropdown__event-info">
+                  Surfanje na mobilnim uređajima ponekad zna biti bolno. Sporo
+                  učitavanje i ometajuće reklame samo se neki od gorućih
+                  problema s kojima se mobilni web susreće. Na misiji ubrzanog
+                  mobilnog weba i poboljšanja UX-a Google predstavlja svoj AMP.
+                  Dođite i saznajte sve o AMP-u, kako se koristi, koja su mu
+                  ograničenja i koje novitete Google donosi u optimizaciju
+                  mobilnih web stranica i oglašavanja
+                </p>
+                <img
+                  src="./assets/images/ivan-lovric.jpg"
+                  alt="Ivan Lovrić"
+                  class="dropdown__speaker-img"
+                />
+                <p class="dropdown__speaker-name">Ivan Lovrić</p>
+                <p class="dropdown__speaker-info">
+                  Front-End Developer @ Profico
+                </p>
+                <p class="dropdown__speaker-links"><a href="https://www.linkedin.com/in/ilovri00/">LinkedIn</a> - <a href="https://bitbucket.org/IvanLovric/">BitBucket</a></p>
+              </div>
+            </div>
+
+            <div class="day__event">
+              <div class="event__minimized">
+                <img
+                  src="./assets/images/clock-icon.png"
+                  alt="Clock icon"
+                  class="event__clock-icon"
+                />
+                <span class="event__time">11:25 - 11:55</span>
+                <span class="event__type event__type--black">Tech</span>
+
+                <h2 class="event__title">Kako dobiti željeni posao</h2>
+                <p class="event__speakers">
+                  Adis Mustedanagić, iOS Team Lead @ Infinum
+                </p>
+              </div>
+
+              <div class="event__dropdown">
+                <p class="dropdown__event-info">
+                  Traženje idealnog posla u tehničkoj struci ne razlikuje se
+                  pretjerano od izlaska na večeru. Na predavanju otkrijte kako
+                  svog budućeg poslodavca odvesti na spoj koji neće nikada
+                  zaboraviti!
+                </p>
+                <img
+                  src="./assets/images/adis-mustedanagic.jpg"
+                  alt="Adis Mustedanagić"
+                  class="dropdown__speaker-img"
+                />
+                <p class="dropdown__speaker-name">Adis Mustedanagić</p>
+                <p class="dropdown__speaker-info">iOS Team Lead @ Infinum</p>
+                <p class="dropdown__speaker-links"><a href="https://www.linkedin.com/in/adism/">LinkedIn</a> - <a href="https://github.com/Adis">GitHub</a></p>
+              </div>
+            </div>
+
+            <div class="day__event">
+              <div class="event__minimized">
+                <img
+                  src="./assets/images/clock-icon.png"
+                  alt="Clock icon"
+                  class="event__clock-icon"
+                />
+                <span class="event__time">12:00 - 12:45</span>
+                <span class="event__type event__type--red">Desing</span>
+
+                <h2 class="event__title">
+                  Dizajniranje vizualnog jezika za agenciju budućnosti
+                </h2>
+                <p class="event__speakers">
+                  Ivan Zebić, UX/UI Art Director @ Bruketa&Žinić&Grey
+                </p>
+              </div>
+
+              <div class="event__dropdown">
+                <p class="dropdown__event-info">
+                  Što su to digitalni vizualni jezici? Čemu služe i kako ih
+                  stvaramo? Na primjeru vizualnog jezika kojeg smo stvorili za
+                  globalnu Grey grupu odgovorit ćemo na sva navedena pitanja.
+                </p>
+                <img
+                  src="./assets/images/ivan-zebic.jpg"
+                  alt="Ivan Zebić"
+                  class="dropdown__speaker-img"
+                />
+                <p class="dropdown__speaker-name">Ivan Zebić</p>
+                <p class="dropdown__speaker-info">
+                  UX/UI Art Director @ Bruketa&Žinić&Grey
+                </p>
+                <p class="dropdown__speaker-links"><a href="https://www.linkedin.com/in/izebic/">LinkedIn</a></p>
+              </div>
+            </div>
+
+            <div class="day__event">
+              <div class="event__minimized">
+                <img
+                  src="./assets/images/clock-icon.png"
+                  alt="Clock icon"
+                  class="event__clock-icon"
+                />
+                <span class="event__time">12:50 - 13:50</span>
+                <span class="event__type event__type--black">Tech</span>
+
+                <h2 class="event__title">
+                  Panel rasprava: "Vječita dilema it-jevaca - should I stay or
+                  should I go?"
+                </h2>
+                <p class="event__speakers">
+                  Dragan Petric (BUG), Mateo Perak (Profico), Igor Roglić
+                  (ExtensionEngine), Vladan Strigo (NETMedia), Mario Frančešević
+                  (SeekandHit)
+                </p>
+              </div>
+
+              <div class="event__dropdown">
+                <p class="dropdown__event-info">
+                  Dublin, Minhen, Dubai… Nekad atraktivne destinacije za šoping
+                  i turizam regionalnoj su tech zajednici danas gastarbajterske
+                  meke u kojima pokušavaju svojim obiteljima osigurati bolje
+                  sutra, nadajući se višestruko učinkovitijoj monetizaciji
+                  svojih znanja no što je to moguće kod kuće. Iseljavanje,
+                  međutim, donosi i niz poslovnih i životnih komplikacija kojih
+                  mnogi postaju svjesni prekasno. Ima li više prednosti li
+                  nedostataka kada se odlazi na privremeni rad u inozemstvo u
+                  odnosu na zaposlenje u nekoj IT firmi „kod kuće“? Kakva
+                  budućnost očekuje one koji ostanu, a kakva one koji odu? I,
+                  dakako, ča će ti Copacabana, Akapulko i Madrid, kad je ovdje
+                  tvoja kala, tvoja mala i tvoj cili svit? Odgovore na sva ova
+                  pitanja dat će nam čelni ljudi najprominentnijih domaćih tech
+                  kompanija, a razgovor će moderirati izvršni urednik Buga,
+                  Dragan Petric.
+                </p>
+                <img
+                  src="./assets/images/dragan-petric.jpg"
+                  alt="Dragan Petrić"
+                  class="dropdown__speaker-img"
+                />
+                <p class="dropdown__speaker-name">Moderator: Dragan Petric</p>
+                <p class="dropdown__speaker-info">Izvršni Urednik @ BUG</p>
+                <p class="dropdown__speaker-links"><a href="https://hr.linkedin.com/in/draganpetric">LinkedIn</a> - <a href="https://twitter.com/drpetric">Twitter</a></p>
+              </div>
+            </div>
+
+            <div class="day__event day__event--cursor-initial">
+              <img
+                src="./assets/images/clock-icon.png"
+                alt="Clock icon"
+                class="event__clock-icon"
+              />
+              <span class="event__time">11:25 - 11:55</span>
+              <h2 class="event__title">Ručak</h2>
+            </div>
+
+            <div class="day__event">
+              <div class="event__minimized">
+                <img
+                  src="./assets/images/clock-icon.png"
+                  alt="Clock icon"
+                  class="event__clock-icon"
+                />
+                <span class="event__time">14:20 - 14:55</span>
+                <span class="event__type event__type--green">Dev</span>
+
+                <h2 class="event__title">Mikroservisi u makro okruženju</h2>
+                <p class="event__speakers">
+                  Ante Aljinović, Tech Lead @ SeekandHit
+                </p>
+              </div>
+
+              <div class="event__dropdown">
+                <p class="dropdown__event-info">
+                  Projekt raste, a kvaliteta i čitljivost kôda opada sa svakim
+                  novim proširenjem? Uhodavanje novih programera traje sve duže,
+                  a rokovi su sve bliže? Čuli ste za Microservice arhitekturu
+                  ali ne znate odakle početi? Na primjerima ćemo prikazati
+                  načine implementacije, skaliranja te prednosti i nedostatke
+                  Microservices arhitekture.
+                </p>
+                <img
+                  src="./assets/images/ante-aljinovic.jpg"
+                  alt="Ante Aljinović"
+                  class="dropdown__speaker-img"
+                />
+                <p class="dropdown__speaker-name">Ante Aljinović</p>
+                <p class="dropdown__speaker-info">Tech Lead @ SeekandHit</p>
+                <p class="dropdown__speaker-links"><a href="https://www.linkedin.com/in/antealjinovic">LinkedIn</a> - <a href="https://github.com/aljinovic">GitHub</a></p>
+              </div>
+            </div>
+
+            <div class="day__event">
+              <div class="event__minimized">
+                <img
+                  src="./assets/images/clock-icon.png"
+                  alt="Clock icon"
+                  class="event__clock-icon"
+                />
+                <span class="event__time">15:00 - 15:30</span>
+                <span class="event__type event__type--black">Tech</span>
+
+                <h2 class="event__title">
+                  Nije šala: kako do bolje karijere uz vlogove i storyje
+                </h2>
+                <p class="event__speakers">
+                  Iva Soldo, Co-Founder & Head of Marketing @ Bamboo Lab
+                </p>
+              </div>
+
+              <div class="event__dropdown">
+                <p class="dropdown__event-info">
+                  Tijekom interaktivnog predavanja bavit ćemo se Instagram i
+                  Snap Storyjima, vlogovima i real-time marketingom kao
+                  trendovima i tehnologijama kojima tvoja generacija diktira
+                  cijelu digitalnu industriju!
+                </p>
+                <img
+                  src="./assets/images/iva-soldo.jpg"
+                  alt="Iva Soldo"
+                  class="dropdown__speaker-img"
+                />
+                <p class="dropdown__speaker-name">Iva Soldo</p>
+                <p class="dropdown__speaker-info">
+                  Co-Founder & Head of Marketing @ Bamboo Lab
+                </p>
+                <p class="dropdown__speaker-links"><a href="https://www.linkedin.com/in/iva-soldo-3807594a">LinkedIn</a> - <a href="https://twitter.com/iva_soldo">Twitter</a></p>
+              </div>
+            </div>
+
+            <div class="day__event">
+              <div class="event__minimized">
+              <img
+                src="./assets/images/clock-icon.png"
+                alt="Clock icon"
+                class="event__clock-icon"
+              />
+              <span class="event__time">15:35 - 16:10</span>
+              <span class="event__type event__type--red">Design</span>
+
+              <h2 class="event__title">
+                Freelancing: kako do satnice od tisuću dolara?
+              </h2>
+              <p class="event__speakers">
+                Robert Midžić, UI Designer / Graphic Designer
+              </p>
+            </div>
+
+              <div class="event__dropdown">
+                  <p class="dropdown__event-info">
+                      Želiš li i dalje biti potplaćen? Još uvijek si samo žrtva slobodnih dana, produženih vikenda i godišnjih odmora? Često razmišljaš o napuštanju najljepše zemlje na svijetu? Ili se možda trenutno bojiš da će tvoja budućnost tako izgledati? Misliš da je kasno??? Nemoj zakasniti na predavanje i saznaj iz prve ruke sto je zapravo Freelancing te formulu za uspjeh.
+                  </p>
+                  <img
+                    src="./assets/images/robert-midzic.jpg"
+                    alt="Robert Midžić"
+                    class="dropdown__speaker-img"
+                  />
+                  <p class="dropdown__speaker-name">Robert Midžić</p>
+                  <p class="dropdown__speaker-info">
+                      UI Designer / Graphic Designer
+                  </p>
+                  <p class="dropdown__speaker-links"><a href="https://www.behance.net/robert_midzic">Behance</a></p>
+                </div>
+            </div>
+
+            <div class="day__event day__event--cursor-initial">
+              <img
+                src="./assets/images/clock-icon.png"
+                alt="Clock icon"
+                class="event__clock-icon"
+              />
+              <span class="event__time">16:10 - 16:25</span>
+
+              <h2 class="event__title">Kratka pauza</h2>
+            </div>
+
+            <div class="day__event day__event--cursor-initial"> <!-- Nema dropdown -->
+              <img
+                src="./assets/images/clock-icon.png"
+                alt="Clock icon"
+                class="event__clock-icon"
+              />
+              <span class="event__time">16:25 - 17:10</span>
+              <span class="event__type event__type--green">Dev</span>
+
+              <h2 class="event__title">Kako (ne) izraditi rasistički AI</h2>
+              <p class="event__speakers">
+                Željko Agić, Associate professor in computer science @ IT
+                University of Copenhagen
+              </p>
+            </div>
+
+            <div class="day__event">
+              <div class="event__minimized">
+              <img
+                src="./assets/images/clock-icon.png"
+                alt="Clock icon"
+                class="event__clock-icon"
+              />
+              <span class="event__time">17:15 - 17:50</span>
+              <span class="event__type event__type--green">Dev</span>
+
+              <h2 class="event__title">Umjetna inteligencija u praksi</h2>
+              <p class="event__speakers">
+                Ilijan Kotarac, Software Engineer @ FIVE
+              </p>
+            </div>
+            <div class="event__dropdown">
+                <p class="dropdown__event-info">
+                    Tehnologije koje su se donedavno koristile samo u znanstvenim institucijama sve se više primjenjuju u praksi. Kroz ovo predavanje predstavit ćemo pametnog pomoćnika razvijenog da bi se olakšalo zapošljavanje u više od 6000 Marriott hotela kroz Facebook Messenger platformu. Pokazat ćemo vam kako je izgledao cijeli projekt: od inicijalne razrade toka komunikacije, preko tehničke implementacije, primjene AI platforme za razumijevanje jezika, sve do objave i analize rezultata korištenja pomoćnika.
+                </p>
+                <img
+                  src="./assets/images/ilijan-kotarac.jpg"
+                  alt="Ilijan Kotarac"
+                  class="dropdown__speaker-img"
+                />
+                <p class="dropdown__speaker-name">Ilijan Kotarac</p>
+                <p class="dropdown__speaker-info">
+                    Software Engineer @ FIVE
+                </p>
+                <p class="dropdown__speaker-links"><a href="https://www.linkedin.com/in/ilijan-kotarac-741139163/">LinkedIn</a></p>
+              </div>
+            </div>
+
+            <h2 class="day__workshops-title">Radionice</h2>
+
+            <div class="day__event">
+              <div class="event__minimized">
+              <img
+                src="./assets/images/clock-icon.png"
+                alt="Clock icon"
+                class="event__clock-icon"
+              />
+              <span class="event__time">13:00 - 14:30</span>
+              <span class="event__type event__type--green">Dev</span>
+
+              <h2 class="event__title">
+                Xamarin: Uvod u mobilno programiranje
+              </h2>
+              <p class="event__speakers">
+                Denis Jakus, Project Manager @ Atos
+              </p>
+            </div>
+
+              <div class="event__dropdown">
+                  <p class="dropdown__event-info">
+                      Naučite kako se izrađuje mobilna aplikacija uz pomoć jednog od najpopularnijih programskih jezika. Koristite jedan programski jezik za izradu svega, od web aplikacija do mobilnih aplikacija.
+                      <br><br> 
+                      Kroz primjer izrade jednostavne aplikacije proći ćemo kroz osnove rada sa Xamarin platformom te napraviti jednu aplikaciju koja radi na Android i IOS platformi. 
+                      <br><br>
+                      Za radionicu je potrebna prijava <a href="https://docs.google.com/forms/d/e/1FAIpQLSdoZt8IBAIikyIp5JQv7kflApXzBJM2kGIZliI2GfVjIVacaQ/viewform?usp=sf_link">ovdje</a>.
+                  </p>
+                  <img
+                    src="./assets/images/denis-jakus.jpg"
+                    alt="Denis Jakus"
+                    class="dropdown__speaker-img"
+                  />
+                  <p class="dropdown__speaker-name">Denis Jakus</p>
+                  <p class="dropdown__speaker-info">
+                      Project Manager @ Atos
+                  </p>
+                  <p class="dropdown__speaker-links"><a href="https://hr.linkedin.com/in/denisjakus">LinkedIn</a> - <a href="https://twitter.com/denzelito">Twitter</a></p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <script src="./assets/scripts/nav.js"></script>
     <script src="./assets/scripts/typing-effect.js"></script>
-</body>
+    <script src="./assets/scripts/event-dropdown.js"></script>
+  </body>
 </html>

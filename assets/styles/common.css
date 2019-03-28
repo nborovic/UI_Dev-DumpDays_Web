@@ -5,6 +5,11 @@
     text-decoration: none;
     border: none;
     outline: none;
+    cursor: initial;
+}
+
+*::selection {
+    background: #30CEC2;
 }
 
 html {
@@ -15,6 +20,10 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden;
+}
+
+.clearfix {
+    overflow: auto;
 }
 
 .cl-white {
@@ -31,6 +40,10 @@ body {
 
 .fs-26 {
     font-size: 26px;
+}
+
+.fw-600 {
+    font-weight: 600;
 }
 
 .fw-700 {
