@@ -48,7 +48,8 @@ header {
     color: #30cec2;
 }
 
-.nav__link--bg {
+.main__link-button {
+    color: #fff;
     padding: 10px 14px;
     border-radius: 5px;
     background-color: #30cec2;
@@ -57,9 +58,11 @@ header {
     box-shadow: 0px 0px 17px -2px #00000040;
     transition: background-color 200ms, bottom 100ms;
     letter-spacing: 0.8px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
-.nav__link--bg:hover {
+.main__link-button:hover {
     color: #fff;
     background-color: #59D8CE;
     bottom: 1px;

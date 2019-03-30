@@ -83,6 +83,7 @@
 .schedule__day {
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .day__event {
@@ -90,6 +91,7 @@
     padding: 20px 12px 13px 12px;
     overflow: hidden;
     cursor: pointer;
+    position: relative;
 }
 
 .day__event:last-of-type {
@@ -111,6 +113,21 @@
     line-height: 1.4;
     transition: color 200ms;
     font-weight: 600;
+}
+
+.event__logo {
+    display: none;
+    opacity: 0.7;
+    height: 70px;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: opacity 250ms;
+}
+
+.day__event:hover .event__logo {
+    opacity: 1;
 }
 
 .event__minimized:hover .event__title {
@@ -236,5 +253,9 @@
 @media screen and (min-width: 1024px) {
     .text-content__title {
         font-size: 52px;
+    }
+
+    .event__logo {
+        display: inline-block;
     }
 }
