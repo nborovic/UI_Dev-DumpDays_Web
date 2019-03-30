@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="shortcut icon" href="./assets/images/favicon_32.png" />
+    <link rel="stylesheet" href="./assets/styles/fonts.css">
     <link rel="stylesheet" href="./assets/styles/header.css" />
     <link rel="stylesheet" href="./assets/styles/landing.css" />
     <link rel="stylesheet" href="./assets/styles/schedule.css" />
     <link rel="stylesheet" href="./assets/styles/common.css" />
     <link rel="stylesheet" href="./assets/styles/gallery.css">
     <link rel="stylesheet" href="./assets/styles/counters.css">
+    <link rel="stylesheet" href="./assets/styles/newsletter.css">
     <title>Dev, Design & Tech konferencija | DUMP Days 2018</title>
   </head>
   <body>
@@ -27,12 +29,12 @@
         />
 
         <nav class="content-wrapper__nav-desktop">
-          <a href="#" class="nav__link fs-16 fw-700 cl-white">Naslovnica</a>
-          <a href="#" class="nav__link fs-16 fw-700 cl-white">Konferencija</a>
-          <a href="#" class="nav__link fs-16 fw-700 cl-white">Raspored</a>
-          <a href="#" class="nav__link fs-16 fw-700 cl-white">Sponzori</a>
-          <a href="#" class="nav__link fs-16 fw-700 cl-white">Kontakt</a>
-          <a href="#" class="nav__link fs-16 fw-700 cl-white nav__link--bg"
+          <a href="#" class="nav__link fs-18 fw-600 cl-white">Naslovnica</a>
+          <a href="#" class="nav__link fs-18 fw-600 cl-white">Konferencija</a>
+          <a href="#" class="nav__link fs-18 fw-600 cl-white">Raspored</a>
+          <a href="#" class="nav__link fs-18 fw-600 cl-white">Sponzori</a>
+          <a href="#" class="nav__link fs-18 fw-600 cl-white">Kontakt</a>
+          <a href="#" class="nav__link fs-18 fw-600 cl-white nav__link--bg"
             >Registracija</a
           >
         </nav>
@@ -42,24 +44,24 @@
             <span class="close-icon__line"></span>
           </div>
 
-          <a href="#" class="nav__link nav__link--margin fs-26 fw-700 cl-white"
+          <a href="#" class="nav__link nav__link--margin fs-28 fw-600 cl-white"
             >Naslovnica</a
           >
-          <a href="#" class="nav__link nav__link--margin fs-26 fw-700 cl-white"
+          <a href="#" class="nav__link nav__link--margin fs-28 fw-600 cl-white"
             >Konferencija</a
           >
-          <a href="#" class="nav__link nav__link--margin fs-26 fw-700 cl-white"
+          <a href="#" class="nav__link nav__link--margin fs-28 fw-600 cl-white"
             >Raspored</a
           >
-          <a href="#" class="nav__link nav__link--margin fs-26 fw-700 cl-white"
+          <a href="#" class="nav__link nav__link--margin fs-28 fw-600 cl-white"
             >Sponzori</a
           >
-          <a href="#" class="nav__link nav__link--margin fs-26 fw-700 cl-white"
+          <a href="#" class="nav__link nav__link--margin fs-28 fw-600 cl-white"
             >Kontakt</a
           >
           <a
             href="#"
-            class="nav__link nav__link--margin fs-26 fw-700 cl-white nav__link--bg"
+            class="nav__link nav__link--margin fs-28 fw-600 cl-white nav__link--bg"
             >Registracija</a
           >
         </nav>
@@ -102,7 +104,7 @@
         <div class="schedule__wrapper">
           <div class="schedule__text-content">
             <h1 class="text-content__title">Raspored</h1>
-            <p class="text-content__paragraph">
+            <p class="text-content__paragraph fw-300">
               Više od <span class="fw-600">20 predavača</span> će tokom <span class="fw-600">2 dana</span> pričati o raznim IT temama, a
               posebno o <span class="fw-600">modernim tehnologijama</span> te načinima na koje one mijenjaju
               i oblikuju našu budućnost. Kako biste si lakše isplanirali dan,
@@ -113,11 +115,11 @@
           <div class="schedule__menu clearfix">
             <button class="menu__day-switch menu__day-switch--first">
               <p class="day-switch__day day-switch__day--first fw-600">1. Dan</p>
-              <p class="day-switch__date day-switch__day--first">11. svibnja</p>
+              <p class="day-switch__date day-switch__day--first fw-300">11. svibnja</p>
             </button>
             <button class="menu__day-switch menu__day-switch--second">
               <p class="day-switch__day day-switch__day--second fw-600">2. Dan</p>
-              <p class="day-switch__date day-switch__date--second">12. svibnja</p>
+              <p class="day-switch__date day-switch__date--second fw-300">12. svibnja</p>
             </button>
           </div>
 
@@ -559,6 +561,21 @@
         <div class="counters__container">
           <h1 class="container__number">1400</h1>
           <h2 class="container__title">Šalica kave</h2>
+        </div>
+      </section>
+
+      <!--
+        Newsletter
+      -->
+
+      <section class="main__newsletter">
+        <div class="newsletter__wrapper">
+            <h1 class="newsletter__title fw-900">Newsletter</h1>
+            <p class="newsletter__paragraph fw-200">Želiš prvi saznati za nagrade i novosti o konferenciji?</p>
+            <div class="newsletter__sign-in clearfix">
+              <input type="text" placeholder="Upiši e-mail adresu" class="sign-in__input">
+              <button class="sign-in__button">Prijavi se</button>
+            </div>
         </div>
       </section>
 

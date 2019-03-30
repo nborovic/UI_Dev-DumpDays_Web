@@ -15,11 +15,13 @@
 }
 
 .landing__content {
-    width: 55%;
-    position: absolute;
-    top: 50%;
-    left: 5%;
-    transform: translate(0%, -50%)
+    margin: auto;
+    padding: 0 20px;
+    height: 100%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .content__info {
@@ -44,19 +46,25 @@
     }
 }
 
+@media screen and (min-width: 345px) {
+    .content__title {
+        font-size: 36px;
+    }
+}
+
 @media screen and (min-width: 500px) {
     .content__title {
-        font-size: 43px;
+        font-size: 45px;
     }
 }
 
 @media screen and (min-width: 785px) {
     .content__title {
-        font-size: 53px;
+        font-size: 55px;
     }
 
     .content__info {
-        font-size: 26px;
+        font-size: 28px;
     }
 
     .br-1 {
@@ -74,7 +82,5 @@
     }
 
     .landing__content {
-        left: 50%;
-        transform: translate(-50%, -50%);
     }
 }

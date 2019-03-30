@@ -1,0 +1,29 @@
+@font-face {
+    font-family: Display;
+    font-weight: 200;
+    src: url("../fonts/FuseV.2Text-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Display;
+    font-weight: 300;
+    src: url("../fonts/FuseV.2Display-Book.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Display;
+    font-weight: 400;
+    src: url("../fonts/FuseV.2Display-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Display;
+    font-weight: 600;
+    src: url("../fonts/FuseV.2Display-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Display;
+    font-weight: 900;
+    src: url("../fonts/FuseV.2Display-Black.otf") format("opentype");
+}

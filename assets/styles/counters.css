@@ -1,10 +1,15 @@
 .main__counters {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     padding: 0 20px 20px 20px;
     display: none;
+}
+
+.counters__container {
+    min-width: 216px;
+    margin: 0;
 }
 
 .container__number, .container__title {
@@ -21,13 +26,19 @@
     font-size: 28px;
     color: #30cec2;
     position: relative;
-    bottom: 20px;
+    bottom: 10px;
     text-transform: uppercase;
 }
 
 @media screen and (min-width: 768px) {
     .main__counters {
         display: flex;
+    }
+}
+
+@media screen and (min-width: 845px) {
+    .counters__container {
+        margin: 0 3%;
     }
 }
 
