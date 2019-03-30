@@ -130,6 +130,10 @@
     opacity: 1;
 }
 
+.event__minimized {
+    position: relative;
+}
+
 .event__minimized:hover .event__title {
     color: #30CEC2;
 }
