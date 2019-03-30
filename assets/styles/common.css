@@ -64,3 +64,57 @@ body {
 .fw-900 {
     font-weight: 900;
 }
+
+.section__title {
+    display: inline-block;
+    position: relative;
+}
+
+.title__text {
+    display: inline-block;
+    font-size: 23px;
+    background: #1a3b43;
+    padding: 10px 12px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.title__text--first {
+    margin-bottom: 10px;
+}
+
+.title__text::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url("../images/title-pattern.png");
+    background-size: cover;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 345px) {
+    .title__text {
+        font-size: 26px;
+    }
+}
+
+@media screen and (min-width: 475px) {
+    .title__text {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .title__text {
+        font-size: 54px;
+    }
+}

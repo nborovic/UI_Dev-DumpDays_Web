@@ -3,7 +3,7 @@
     background: #fff;
     border-top: 14px solid #30cec2;
     box-shadow: inset 0 69px 164px -127px #30cec1b3;
-    padding: 85px 0 100px 0;
+    padding: 85px 0 20px 0;
 }
 
 .schedule__wrapper {
@@ -90,6 +90,10 @@
     padding: 20px 12px 13px 12px;
     overflow: hidden;
     cursor: pointer;
+}
+
+.day__event:last-of-type {
+    border-bottom: none;
 }
 
 .day__event * {
@@ -221,6 +225,12 @@
     margin: 15px 0 0 12px;
     font-size: 24px;
     color: #30CEC2;
+}
+
+@media screen and (min-width: 768px) {
+    .main__schedule {
+        padding: 85px 0 100px 0;
+    }
 }
 
 @media screen and (min-width: 1024px) {
